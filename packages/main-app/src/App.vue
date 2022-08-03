@@ -13,13 +13,12 @@
 </template>
 
 <script>
+// actions 测试
 import actions from "@/shared/actions";
-// import HelloWorld from './components/HelloWorld.vue'
 
 export default {
   name: 'App',
   components: {
-    // HelloWorld
   },
   mounted() {
     // 注册一个观察者函数
@@ -32,6 +31,7 @@ export default {
     });
   },
   methods: {
+    // qiankun action
     changeState() {
       // 设置 token
       actions.setGlobalState({ token: 'token-11' });

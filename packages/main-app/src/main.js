@@ -3,7 +3,7 @@ import App from './App.vue'
 import startQiankun from "./micro";
 import { createRouter, createWebHistory } from 'vue-router'
 
-
+// 主应用通过registerMicroApps注册子应用
 startQiankun();
 
 
